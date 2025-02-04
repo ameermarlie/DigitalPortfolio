@@ -680,8 +680,8 @@
   .mePic {
     background-image: url(images/me.jpg);
     background-size: cover;
-    width: 10rem;
-    height: 10rem;
+    width: 50px;
+    height: 50rem;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center center;
