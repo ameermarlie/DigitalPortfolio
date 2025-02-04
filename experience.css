@@ -550,21 +550,6 @@
 
 
 @media (min-width: 1024px) and (max-width:1800px){
-  .p2 p{
-    margin-top:5%;
-    font-size:10px;
-    padding-left: 5%;
-    padding-right: 5%;
-  
-  
-  
-  }
-  .p2 a{
-    font-size:10px;
-    color: rgb(206, 55, 55);
-    font-weight: bold;
-    text-decoration: none;
-  }
   .tooltip {
     position: absolute;
     bottom: 110%; /* Position above the parent */
@@ -595,17 +580,17 @@
 
   }
   #experience h1{
-    font-size: 20px;
+    font-size: 30px;
   }
 
 
   .find {
     background-color: rgb(201, 51, 51);
     border-radius: 10px;
-    width: 15rem;
+    width: 12rem;
     margin-top: 1rem;
     padding: 10px;
-    font-size: 32px;
+    font-size: 1.5rem;
     font-weight: bold;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
@@ -645,7 +630,7 @@
     height: 40%;
     background-color: rgba(0, 0, 0, 0); /* Semi-transparent black */
     z-index: 2; /* Above the animated background */
-    margin-top: 10%;
+    margin-top: 30%;
     margin-left: 20%;
     margin-right: 30%;
     margin-bottom: 100px;
@@ -680,19 +665,19 @@
   .mePic {
     background-image: url(images/me.jpg);
     background-size: cover;
-    width: 50px;
-    height: 150rem;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center center;
     margin-top: 10%;
   }
   .aboutMeInfo {
-    margin-bottom: 10%;
+    margin-bottom: 0%;
     margin-left: 5%;
     width: 80%;
     height: 30%;
-    font-size:11px;
+    font-size:14px;
     color: white;
   }
   .gmail {
@@ -727,7 +712,7 @@
     margin-top:3%;
   }
   .project{
-    width:40%;
+    width:80%;
     margin-bottom:20px;
     height:90%;
     border-radius: 10%;;
@@ -764,7 +749,7 @@
     margin-top:10px;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 90%;
     height: 40%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Bigger shadow */
     background-color: rgb(65, 65, 68);
@@ -778,16 +763,16 @@
   .contS {
     position: relative;
     text-align: center;
-    width: 30%;
-    height: 30%;
+    width: 10%;
+    height: 10%;
     flex: 1 1 100px; /* Allow flexibility in width */
     max-width: 150px; /* Set a maximum width */
   }
 
   
   .skillsContainer img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     transition: transform 0.3s ease;
   }
   
@@ -851,8 +836,8 @@
     font-size: 10px;
     margin-left:30%;
   }
-
 }
+
 
 @media (max-width: 1024px) and (max-height:600px){
 
