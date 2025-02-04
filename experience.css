@@ -550,7 +550,7 @@
 
 
 @media (min-width: 1024px) and (max-width:1800px){
-    .p2 p{
+   .p2 p{
     margin-top:5%;
     font-size:10px;
     padding-left: 5%;
@@ -602,41 +602,12 @@
   .find {
     background-color: rgb(201, 51, 51);
     border-radius: 10px;
-    width: 15rem;
+    width: 7rem;
     margin-top: 1rem;
     padding: 10px;
-    font-size: 32px;
+    font-size: 15px;
     font-weight: bold;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  }
-
-  .burger {
-    display: block;
-  }
-
-  .nav {
-    position: relative;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 50px;
-    right:0;
-    width: 100px;
-    background-color:rgb(230, 98, 98);
-    z-index: 1;
-    border-radius: 5px;
-  }
-
-  .nav.active {
-    display: flex;
-  }
-
-  .nav li {
-
-    margin-bottom: 10px ;
-    margin-right: 80px;
   }
 
   .intro {
@@ -667,8 +638,9 @@
   #about {
     position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
     height: 100vh;
     width: 100vw;
@@ -680,18 +652,18 @@
   .mePic {
     background-image: url(images/me.jpg);
     background-size: cover;
-    width: 50px;
-    height: 200px;
+    width: 15rem;
+    height: 20rem;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-top: 10%;
+    margin-bottom: 10%;
   }
   .aboutMeInfo {
     margin-bottom: 10%;
     margin-left: 5%;
-    width: 80%;
-    height: 30%;
+    width: 40%;
+    height: 100%;
     font-size:11px;
     color: white;
   }
@@ -719,19 +691,18 @@
   .projectContainer{
     position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content:space-around;
+    flex-direction: row;
+    justify-content:space-evenly;
     align-items:center;
-    width:60%;
-    height:80%;
-    margin-top:3%;
+    width:80%;
+    height:40%;
+  
   }
   .project{
-    width:40%;
+    width:25%;
     margin-bottom:20px;
     height:90%;
     border-radius: 10%;;
-  
     box-shadow: 0 4px 6px rgba(0.3, 0.3, 0.3, 0.3); /* Normal shadow */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
   }
@@ -844,7 +815,7 @@
   }
   .excontainer {
 
-    width: 70%;
+    width: 30%;
 
   }
   .excontainer h1{
